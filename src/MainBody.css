@@ -1,0 +1,22 @@
+.mainBody {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    max-width: 935px;
+    width: 935px;
+    /* border: 10px solid red; */
+    /* place-items: center; */
+    /* width: 100%; */
+    margin-top: 64px;
+
+    /* margin: 0 auto; */
+}
+
+@media only screen and (max-width: 1000px) {
+    .mainBody {
+        text-align: center;
+        display: grid;
+        place-items: center;
+        width: auto;
+    }
+}
