@@ -1,0 +1,84 @@
+.logIn__page {
+    display: grid;
+    place-items: center;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    height: 100vh;
+}
+.logIn__wrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px auto; */
+    height: auto;
+}
+
+.logIn__image {
+    width: 30vw;
+    height: auto;
+}
+.logIn__options {
+    place-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 40px;
+    /* border-left: 2px solid black; */
+    height: auto;
+}
+
+.logIn__border {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+}
+
+.logIn__form {
+    display: flex;
+    flex-direction: column;
+    border: 0 solid #000; 
+    /* max-width: 30vw; */
+    margin-top: 30px;
+}
+.form__fields {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    place-items: center;
+    padding: 14px 8px!important;
+    margin-bottom: 5px;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+}
+.get__the__app {
+    text-align: center;
+    margin-top: 10px;
+}
+.playstore__wrapper {
+    margin-top: 10px;
+    padding: 3px;
+}
+.google__style {
+    object-fit: fill;
+    max-height: 40px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 875px ) {
+    .logIn__image {
+        display: none;
+    }
+    .logIn__options {
+        min-width: 50vw;
+    }
+}
+   
+@media only screen and (max-width: 500px ) {
+    .logIn__options {
+        min-width: 80vw;
+        margin-top: 0px;
+    }
+}
