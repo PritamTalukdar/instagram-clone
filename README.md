@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##This project uses ReactJS, Javascript, HTML5, Css3 for frontend and Firbase authentication and Database as backend.
+
 
 ## Available Scripts
 
