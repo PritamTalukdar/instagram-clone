@@ -10,7 +10,7 @@ function RightSectionHeader() {
                 <img
                     className="headerImg"
                     alt="test"
-                    src="https://instagram.fblr1-3.fna.fbcdn.net/v/t51.2885-15/e35/54446523_1068830753300846_6692444261054313633_n.jpg?_nc_ht=instagram.fblr1-3.fna.fbcdn.net&_nc_cat=102&_nc_ohc=SfdlHPKeLbIAX8MhqMb&oh=ed67447da7345787c8d0a607187620d9&oe=5F5E5759"
+                    src="https://instagram.fblr2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/14072784_170196866737037_1649096564_a.jpg?_nc_ht=instagram.fblr2-1.fna.fbcdn.net&_nc_ohc=Ov0UFA5nzVMAX-Gp-OS&oh=6d4ccb6067034c0f13290e1e1063ea60&oe=5F724048"
                 />
                 <div className="profileName">
                     <h4>pritamtalukdar205</h4>
